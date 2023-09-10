@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sub-menu{
+    line-height: 10px;
+}
+.nav_left{
+    margin-left: 35px;
+}
+.nav_left > ul{
+    list-style-type: none;
+}
+.nav_left ul li{
+    color: black;
+    display: inline-table;
+    width: 110px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 50px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav_left ul li a{
+    text-decoration: none;
+    display: block;
+    color:white;
+}
+.nav_left ul li:hover{
+    cursor: pointer;
+    
+}
+.nav_left ul li > .sub-menu{
+    display: none;
+    position: absolute;
+}
+.nav_left ul li:hover .sub-menu{
+    display: block;
+    
+}
+#nav a:hover{
+    color: black;
+}
+#nav{
+    display: flex;
+    position: absolute;
+}
+.nav_right ul li{
+    list-style-type: none;
+    display: inline-table;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    color: white;
+    width: 45px
+}
+.nav_right{
+    padding-left: 770px;
+}
+#slide > img{
+    width: 100%;
+    height: 100%;
+}
+.hang-sp-1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+#san-pham .san-pham-1 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-1 img{
+    width: 100%;
+    height: 100%;
+}
+.san-pham-1 .blazerxamnhat{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-1 .blazerxamnhat:hover{
+    opacity: 1;
+}
+#san-pham .san-pham-2 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-2 img{
+    width: 100%;
+    height: 100%;
+}
+.san-pham-2 .blazerxamdam{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-2 .blazerxamdam:hover{
+    opacity: 1;
+}
+#san-pham .san-pham-3 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-3 img{
+    width: 100%;
+    height: 100%;
+}
+.san-pham-3 .blazerxamghi{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-3 .blazerxamghi:hover{
+    opacity: 1;
+}
+#san-pham .san-pham-4 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-4 img{
+    width: 100%;
+    height: 100%;
+}
+.san-pham-4 .parkaden{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-4 .parkaden:hover{
+    opacity: 1;
+}
+.hang-sp-2{
+    display: flex;
+    padding-top: 160px;
+    justify-content: space-around;
+}
+#san-pham .san-pham-5 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-5 img{
+    width: 100%;
+    height: 100%;
+}
+.san-pham-5 .bomberden{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-5 .bomberden:hover{
+    opacity: 1;
+}
+#san-pham .san-pham-6 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-6 img{
+    width: 100%;
+    height: 100%;
+}
+.san-pham-6 .bombernau{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-6 .bombernau:hover{
+    opacity: 1;
+}
+#san-pham .san-pham-7 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-7 img{
+    width: 100%;
+    height: 100%;
+}
+.san-pham-7 .bombertran{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-7 .bombertran:hover{
+    opacity: 1;
+}
+#san-pham .san-pham-8 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-8 img{
+    width: 100%;
+    height: 100%;
+}
+.san-pham-8 .JOAQUIN{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-8 .JOAQUIN:hover{
+    opacity: 1;
+}
+.hang-sp-3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 160px;
+}
+#san-pham .san-pham-9 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-9 img{
+    width: 100%;
+    height: 100%;
+}
+.nav_left ul li a{
+    text-decoration: none;
+    display: block;
+    color:white;
+}
+#nav ul li{
+    position: relative;
+    text-decoration: none;
+}
+#nav ul li::before {
+     content: "";
+     position: absolute;
+     bottom: -2px;
+     height: 3.5px;
+     width: 0;
+     background-color: #f0ffff;
+     border-radius: 50px;
+     transition: width 0.3s ease;
+}
+#nav ul li:hover::before{
+    width: 50%;
+}
+.san-pham-9 .cocungxamdam{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-9 .cocungxamdam:hover{
+    opacity: 1;
+}
+#san-pham .san-pham-10 {
+    width: 270px;
+    height: 270px;
+    position: relative;
+}
+.san-pham-10 img{
+    width: 100%;
+    height: 100%;
+}
+.san-pham-10 .cocungvang{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .7s  ease;
+}
+.san-pham-10 .cocungvang:hover{
+    opacity: 1;
+}

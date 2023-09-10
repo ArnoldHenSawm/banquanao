@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Website Icon" type="png"
+    href="/main/images/logo-1970.png">
+
+    <title>TRANG CHỦ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@500&family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav">
+        <div class="nav_left">
+            <nav>
+                <ul>
+                    <li><a class="none"
+                            style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;line-height: 63px;"
+                            href="/main/index.html">THE 1970</a></li>
+                    <li class="sanpham">
+                        <a href="#">SẢN PHẨM<i style="padding-left: 4px;"
+                                class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-menu" style="line-height: 30px;">
+                            <li><a href="#">SALE</a></li>
+                            <li><a href="/ao/ao.html">ÁO PHÔNG</a></li>
+                            <li><a href="/balo/balo.html">BALO</a></li>
+                            <li><a href="/giay/giay.html">GIÀY</a></li>
+                            <li><a href="/thatlung/thatlung.html">THẮT LƯNG</a></li>
+                            <li><a href="/aolen/aolen.html">ÁO LEN</a></li>
+                            <li><a href="#">PHỤ KIỆN</a></li>
+                            <li><a href="/aokhoac/aokhoac.html">ÁO KHOÁC</a></li>
+                            <li><a href="#">QUẦN</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/gioithieu/gioi-thieu.html">GIỚI THIỆU</a></li>
+                    <li><a href="#">TIN TỨC</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav_right">
+            <ul class="sub-icon">
+                <li><a href="/dang-nhap/dang-nhap.html"><i style="color:white;" class="fa-regular fa-user"></i></a></li>
+                <li><a href=""><i style="color: white;" class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href=""><i style="color: white;" class="fa-solid fa-bag-shopping"></i></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="slider">
+        <div class="slides">
+            <!-- radio buttons start -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
+            <input type="radio" name="radio-btn" id="radio7">
+            <!-- radio buttons end -->
+            <!-- slide images start -->
+            <div class="slide mot">
+                <img src="/main/images/Screenshot 2023-08-18 130514.png" alt="">
+            </div>
+            <div class="slide hai">
+                <img src="/main/images/Screenshot 2023-08-18 130749.png" alt="">
+            </div>
+            <div class="slideba">
+                <img src="/main/images/Screenshot 2023-08-18 125722.png" alt="">
+            </div>
+            <div class="slide bon">
+                <img src="/main/images/Screenshot 2023-08-18 125842.png" alt="">
+            </div>
+            <div class="slide nam">
+                <img src="/main/images/Screenshot 2023-08-18 130016.png" alt="">
+            </div>
+            <div class="slide sau">
+                <img src="/main/images/Screenshot 2023-08-18 130107.png" alt="">
+            </div>
+            <div class="slide bay">
+                <img src="/main/images/Screenshot 2023-08-18 130208.png" alt="">
+            </div>
+            <!-- slide images end -->
+            <!-- automatic navigation start -->
+            <div class="navigation-auto">
+                <div class="au-btn1">
+
+                </div>
+                <div class="au-btn2">
+                    
+                </div>
+                <div class="au-btn3">
+                    
+                </div>
+                <div class="au-btn4">
+                    
+                </div>
+                <div class="au-btn5">
+                    
+                </div>
+                <div class="au-btn6">
+                    
+                </div>
+                <div class="au-btn7">
+                    
+                </div>
+            </div>
+            <!-- automatic navigation end -->
+        </div>
+        <!-- manual navigation start -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+            <label for="radio7" class="manual-btn"></label>
+        </div>
+        <!-- manual navigation end -->
+    </div>
+    <!-- image slider end -->
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true
+            counter++
+            if (counter > 7) {
+                counter = 1
+            }
+        }, 5000)
+    </script>
+
+    <div id="gt" style="padding-top: 100px;">
+        <div class="hang-1">
+            <div style="position:relative;background-color:  #f2f2f2;width: 450px;height: 500px;">
+                <h3 style="font-family: 'Cormorant Garamond', serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Raleway', sans-serif;
+                text-decoration: underline;margin-left: 40px;margin-top: 20px;"><a style="color: black;" href="/ao/ao.html">ÁO PHÔNG</a></h3>
+                <img style="width: 420px;margin-top: 30px;margin-left: 20px;" src="/main/images/en__1_-removebg-preview.png" alt="">
+            </div>
+            <div style="position:relative;background-color:  #f2f2f2;width: 450px;height: 500px;">
+                <h3 style="font-family: 'Cormorant Garamond', serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Raleway', sans-serif;
+                text-decoration: underline;margin-left: 40px;margin-top: 20px;"><a style="color: black;" href="/balo/balo.html">BALO</a></h3>
+                <img style="width: 420px;margin-top: 30px;margin-left: 20px;" src="/main/images/dsc_6438-removebg-preview.png" alt="">
+            </div>
+            <div style="position:relative;background-color:  #f2f2f2;width: 450px;height: 500px;">
+                <h3 style="font-family: 'Cormorant Garamond', serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Raleway', sans-serif;
+                text-decoration: underline;margin-left: 40px;margin-top: 20px;"><a style="color: black;" href="/giay/giay.html">GIÀY</a></h3>
+                <img style="width: 420px;margin-top: 30px;margin-left: 20px;" src="/main/images/dsc_6353-removebg-preview.png" alt="">
+            </div>
+            
+        </div>
+        <div class="hang-2">
+            <div style="position:relative;background-color:  #f2f2f2;width: 450px;height: 500px;">
+                <h3 style="font-family: 'Cormorant Garamond', serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Raleway', sans-serif;
+                text-decoration: underline;margin-left: 40px;margin-top: 20px;"><a style="color: black;" href="/thatlung/thatlung.html">THẮT LƯNG</a></h3>
+                <img style="width: 420px;margin-top: 30px;margin-left: 20px;" src="/main/images/dsc_6530-removebg-preview.png" alt="">
+            </div>
+            <div style="position:relative;background-color:  #f2f2f2;width: 450px;height: 500px;">
+                <h3 style="font-family: 'Cormorant Garamond', serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Raleway', sans-serif;
+                text-decoration: underline;margin-left: 40px;margin-top: 20px;"><a style="color: black;" href="/thatlung/thatlung.html">PHỤ KIỆN</a></h3>
+                <img style="width: 300px;margin-top: 30px;margin-left: 75px;" src="/main/images/182055610_937257903695926_7148783477631074844_n - copy.jpg" alt="">
+            </div>
+            <div style="position:relative;background-color:  #f2f2f2;width: 450px;height: 500px;">
+                <h3 style="font-family: 'Cormorant Garamond', serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Raleway', sans-serif;
+                text-decoration: underline;margin-left: 40px;margin-top: 20px;"><a style="color: black;" href="/aokhoac/aokhoac.html">ÁO KHOÁC</a></h3>
+                <img style="width: 420px;margin-top: 30px;margin-left: 20px;" src="/main/images/dsc_5181-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="hang-3">
+            <div style="position:relative;background-color:  #f2f2f2;width: 450px;height: 500px;">
+                <h3 style="font-family: 'Cormorant Garamond', serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Raleway', sans-serif;
+                text-decoration: underline;margin-left: 40px;margin-top: 20px;"><a style="color: black;" href="/">QUẦN</a></h3>
+                <img style="width: 380px;height: 450px;margin-left: 20px;" src="/main/images/DSC_6349-removebg-preview.png" alt="">
+            </div>
+            <div style="position:relative;background-color:  #f2f2f2;width: 450px;height: 500px;">
+                <h3 style="font-family: 'Cormorant Garamond', serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Raleway', sans-serif;
+                text-decoration: underline;margin-left: 40px;margin-top: 20px;"><a style="color: black;" href="">SƠ MI</a></h3>
+                <img style="width: 380px;height: 450px;margin-left: 20px;" src="/main/images/dsc_4141-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="introduce">
+        <h1
+            style="position: absolute;margin-top: 280px;margin-left: 560px;color: #dcdcdc;font-family: serif;font-weight: 300;text-decoration: underline;">
+            Niềm cảm hứng của chúng tôi</h1>
+        <p
+            style="position: absolute;margin-top: 350px;margin-left: 530px;color: #dcdcdc;font-size: 15px;text-align: center;">
+            Đối với chúng tôi thời trang là cách để thể hiện quan điểm sống, phóng <br> thoáng, cổ điển, đậm chất nam
+            tính và motobike là thứ không thể thiếu và <br> là niềm đam mê của chúng tôi</p>
+        <button
+            style="position: absolute;margin-top: 445px;margin-left: 690px;color: black;width: 130px;height: 35px;border: 1px white;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">XEM
+            THÊM</button>
+        <img style="width: 1415px;height: 600px;margin: 30px;margin-left: 45px;"
+            src="images/z4545657644961_ae0a00dc5d21b1ab322350fa99b61a73.jpg" alt="">
+    </div>
+    <hr style="height: 3px;background-color: black;margin-top: 50px;">
+    <div id="the-end">
+        <div class="the-end-1">
+            <img nh-lazy="image" class="img-fluid" alt="the1970.vn"
+                src="https://cdn0199.cdn4s.com/media/logo/logo-1970.png" style="width: 70px;height: 14px;">
+            <h3
+                style="font-size: 14px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-weight: 600;">
+                ĐƯỜNG DẪN</h3>
+            <h3
+                style="font-size: 14px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-weight: 600;">
+                MẠNG XÃ HỘI</h3>
+
+        </div>
+        <div class="the-end-2">
+            <div style="margin-left: 210px;">
+                <ul>
+                    <li style="font-family: 'Playfair Display', serif;;">Chào mừng bạn đến với The 1970.</li>
+                    <li><i class="fa-solid fa-location-dot" style="padding-right: 10px;"></i>Cửa hàng 1: 280 thái hà
+                    </li>
+                    <li><i class="fa-solid fa-location-dot" style="padding-right: 10px;"></i>Cửa hàng 2: 92 trung phụng
+                    </li>
+                    <li><i class="fa-solid fa-location-dot" style="padding-right: 10px;"></i>Cửa hàng 3: 6 ngõ 91 chùa
+                        láng</li>
+                    <li><i class="fa-solid fa-phone" style="padding-right: 10px;"></i>0974930509</li>
+                    <li><i class="fa-solid fa-envelope" style="padding-right: 10px;"></i>the1970store3@gmail.com</li>
+                </ul>
+            </div>
+            <div style="margin-left: 270px;">
+                <ul>
+                    <li>Về chúng tôi</li>
+                    <li>Vận chuyển</li>
+                    <li>Chính sách</li>
+                    <li>Khuyến mại</li>
+                    <li>Hỗ trợ</li>
+                    <li>Payment</li>
+                    <li>Liên hệ</li>
+                </ul>
+            </div>
+            <div style="margin-left: 470px;">
+                <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/47d52e077c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sub-menu{
+    line-height: 10px;
+}
+.nav_left{
+    margin-left: 35px;
+}
+.nav_left > ul{
+    list-style-type: none;
+}
+.nav_left ul li{
+    color: black;
+    display: inline-table;
+    width: 110px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 50px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav_left ul li a{
+    text-decoration: none;
+    display: block;
+    color:white;
+}
+#nav ul li{
+    position: relative;
+    text-decoration: none;
+}
+#nav ul li::before {
+     content: "";
+     position: absolute;
+     bottom: -2px;
+     height: 3.5px;
+     width: 0;
+     background-color: #f0ffff;
+     border-radius: 50px;
+     transition: width 0.3s ease;
+}
+#nav ul li:hover::before{
+    width: 50%;
+}
+
+.nav_left ul li:hover{
+    cursor: pointer;
+    
+}
+.nav_left ul li > .sub-menu{
+    display: none;
+    position: absolute;
+}
+.nav_left ul li:hover .sub-menu{
+    display: block;
+    
+}
+#nav{
+    display: flex;
+    position: absolute;
+
+}
+#nav:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    padding-bottom: 450px;
+}
+.nav_right ul li{
+    list-style-type: none;
+    display: inline-table;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    color: white;
+    width: 45px
+}
+.nav_right{
+    padding-left: 770px;
+}
+#slide > img{
+    width: 100%;
+    height: 100%;
+}
+.hang-1 img{
+    width: 390px;
+    height: 400px;
+    display: block;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.hang-1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.hang-2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.hang-3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.the-end-1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+}
+.the-end-2 ul{
+    list-style-type: none;
+    padding-top: 25px;
+}
+.the-end-2{
+    display: flex;  
+}
+.the-end-2 ul li{
+    padding-bottom: 20px;
+}
+#slider{
+    width: 1520px;
+    height: 760px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 760px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 1520px;
+    height: 760px;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 1520px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+.manual-btn:hover{
+    background: #f2f2f2;
+}
+
+#radio1:checked ~ .mot{
+    margin-left: 0;
+}
+#radio2:checked ~ .mot{
+    margin-left: -20%;
+}
+#radio3:checked ~ .mot{
+    margin-left: -40%;
+}
+#radio4:checked ~ .mot{
+    margin-left: -60%;
+}
+#radio5:checked ~ .mot{
+    margin-left: -80%;
+}
+#radio6:checked ~ .mot{
+    margin-left: -100%;
+}
+#radio7:checked ~ .mot{
+    margin-left: -120%;
+}
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 1520px;
+    justify-content: center;
+    margin-top: 460px;
+}
+.navigation-auto div{
+
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 260px;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 25px;
+
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #f2f2f2;
+
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #f2f2f2;
+    
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #f2f2f2;
+    
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #f2f2f2;
+    
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #f2f2f2;
+    
+}
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background: #f2f2f2;
+    
+}
+#radio7:checked ~ .navigation-auto .auto-btn7{
+    background: #f2f2f2;
+    
+}
